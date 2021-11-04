@@ -16,7 +16,7 @@ Updated ports
 Updates are also welcome; just try to keep this tree clean by removing ports
 that are updated/imported upstream.
 
-If you're importing an update, please add an UPDATE file in the ports' directory
+If you're importing an update, please add an UPDATE file in the port's directory
 with a summary of changes/explanation. This will make it easier to keep
 updates and new ports apart.
 
@@ -43,7 +43,7 @@ As one of the main goals of this repository is to ease the workload for
 committers, please use the following files to keep the overview of what's here:
 
 - FINISHED: Described above
-- TODO: File in the ports' directory explaining what needs to be done
+- TODO: File in the port's directory explaining what needs to be done
 - UPDATE: Explain the update, could contain a ready-to-use commit message? :)
 - ABANDONED: Ports that have not seen any activity in recent years nor have any
   licensing restrictions that would prevent them from ever being imported into CVS.
@@ -104,5 +104,5 @@ How to contribute
 ==================================
 
 Please let me know if you need write access to this repository. But please
-stick the workflow outlined in this document as well the pointers in
+stick to the workflow outlined in this document as well the pointers in
 <https://openbsd.org/porting.html>
